@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.architecgraphic.satoria"
         versionCode="10" 
-        version   = "1.0.9">
+        version   = "1.1.0">
         
       <preference name="permissions"                value="none"/>
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
@@ -64,7 +64,5 @@
 
 <allow-navigation href="*" />
 <access origin="http://maps.google.com" />
-
-
 
 </widget>
