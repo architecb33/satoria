@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.architecgraphic.satoria"
-        versionCode="14" 
-        version   = "1.1.4">
+        versionCode="15" 
+        version   = "1.1.5">
         
       <preference name="permissions"                value="none"/>
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
@@ -64,5 +64,14 @@
 
 <allow-navigation href="mailto:*" />
 <allow-navigation href="*://www.google.com/maps/*" />
+
+  <plugin name="cordova-plugin-whitelist" spec="1" />
+  <access origin="*" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+  <allow-intent href="geo:*" />
 
 </widget>
